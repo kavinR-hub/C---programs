@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    
+    for (int i = 1; i <= 20; i++) {
+        if(i==16){
+            break;
+        }
+        // Add an if statement here before using printf
+        printf("%d ", i);
+    }
+    
+    return 0;
+}
