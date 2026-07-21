@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int Area(int length,int width){
+return length * width;
+
+}
+
+int main() {
+    
+    int length,width;
+    scanf("%d %d",&length,&width);
+    
+    int area = Area(length,width);
+    printf("Area: %d",area);
+    
+    return 0;
+}
