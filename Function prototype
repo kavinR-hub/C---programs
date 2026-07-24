@@ -1,0 +1,13 @@
+#include <stdio.h>
+int calculateArea (int length,int width);
+    
+int main() {
+    int length,width;
+    scanf("%d %d", &length, &width);
+    int result = calculateArea(length,width);
+    printf("%d",result);
+    return 0;
+}
+int calculateArea (int length,int width){
+return length * width;
+}
